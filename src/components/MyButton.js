@@ -6,10 +6,12 @@ function MyButton() {
 
     function handleClick () {
         setCount(count + 1);
-        alert('You clicked me!');
+        // alert('You clicked me!');
     }
     return (
-        <button onClick={handleClick}>I'm a button. Click me</button>
+        <button onClick={handleClick}>
+            Clicked {count} times
+            </button>
     );
 }
 
